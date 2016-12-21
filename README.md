@@ -18,6 +18,15 @@ contentCV = UICollectionView.init(frame: CGRect.zero, collectionViewLayout: layo
 
 ![](http://imwcl.oss-cn-shanghai.aliyuncs.com/github/WCLWaterFallLayout/2860B3D7-CC8B-4D15-90E4-1AA14D1B4703.png)
 
+```swift
+@objc protocol WCLWaterFallLayoutDelegate {
+    //waterFall的列数
+    func columnOfWaterFall(_ collectionView: UICollectionView) -> Int
+    //每个item的高度
+    func waterFall(_ collectionView: UICollectionView, layout waterFallLayout: WCLWaterFallLayout, heightForItemAt indexPath: IndexPath) -> CGFloat
+}
+```
+
 ## 属性列表
 
 ```swift
