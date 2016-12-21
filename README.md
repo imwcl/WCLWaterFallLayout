@@ -10,8 +10,8 @@
 
 ```swift
 let layout = WCLWaterFallLayout.init(lineSpacing: 11, columnSpacing: 11, sectionInsets: UIEdgeInsetsMake(0, 16, 10, 16))
-        layout.delegate = self
-        contentCV = UICollectionView.init(frame: CGRect.zero, collectionViewLayout: layout)
+layout.delegate = self
+contentCV = UICollectionView.init(frame: CGRect.zero, collectionViewLayout: layout)
 ```
 
 或者使用拖拽布局
