@@ -1,6 +1,6 @@
 ## WCLWaterFallLayout
 
-![aaaa](http://imwcl.oss-cn-shanghai.aliyuncs.com/github/WCLWaterFallLayout/WCLWaterFallLayout.gif)
+![aaaa](https://github.com/631106979/WCLWaterFallLayout/blob/master/WCLWaterFallLayout.gif?raw=true)
 
 ## 简介
 
