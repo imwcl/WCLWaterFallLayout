@@ -11,7 +11,8 @@
 		973558001E0A8BD2000F6604 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973557FF1E0A8BD2000F6604 /* ViewController.swift */; };
 		973558031E0A8BD2000F6604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973558011E0A8BD2000F6604 /* Main.storyboard */; };
 		973558051E0A8BD2000F6604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973558041E0A8BD2000F6604 /* Assets.xcassets */; };
-		973558081E0A8BD2000F6604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973558061E0A8BD2000F6604 /* LaunchScreen.storyboard */; };
+		973558101E0A8C29000F6604 /* WCLWaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9735580F1E0A8C29000F6604 /* WCLWaterFallLayout.swift */; };
+		973558121E0A8F66000F6604 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973558111E0A8F66000F6604 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +21,9 @@
 		973557FF1E0A8BD2000F6604 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		973558021E0A8BD2000F6604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		973558041E0A8BD2000F6604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		973558071E0A8BD2000F6604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		973558091E0A8BD2000F6604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9735580F1E0A8C29000F6604 /* WCLWaterFallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCLWaterFallLayout.swift; sourceTree = "<group>"; };
+		973558111E0A8F66000F6604 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +56,12 @@
 		973557FC1E0A8BD2000F6604 /* WCLWaterFallLayout */ = {
 			isa = PBXGroup;
 			children = (
+				9735580F1E0A8C29000F6604 /* WCLWaterFallLayout.swift */,
 				973557FD1E0A8BD2000F6604 /* AppDelegate.swift */,
 				973557FF1E0A8BD2000F6604 /* ViewController.swift */,
 				973558011E0A8BD2000F6604 /* Main.storyboard */,
 				973558041E0A8BD2000F6604 /* Assets.xcassets */,
-				973558061E0A8BD2000F6604 /* LaunchScreen.storyboard */,
+				973558111E0A8F66000F6604 /* Launch Screen.storyboard */,
 				973558091E0A8BD2000F6604 /* Info.plist */,
 			);
 			path = WCLWaterFallLayout;
@@ -123,7 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				973558081E0A8BD2000F6604 /* LaunchScreen.storyboard in Resources */,
+				973558121E0A8F66000F6604 /* Launch Screen.storyboard in Resources */,
 				973558051E0A8BD2000F6604 /* Assets.xcassets in Resources */,
 				973558031E0A8BD2000F6604 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +141,7 @@
 			files = (
 				973558001E0A8BD2000F6604 /* ViewController.swift in Sources */,
 				973557FE1E0A8BD2000F6604 /* AppDelegate.swift in Sources */,
+				973558101E0A8C29000F6604 /* WCLWaterFallLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +154,6 @@
 				973558021E0A8BD2000F6604 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		973558061E0A8BD2000F6604 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				973558071E0A8BD2000F6604 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
